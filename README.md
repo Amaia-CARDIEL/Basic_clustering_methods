@@ -1,10 +1,11 @@
-## Apprentissage non supervisé
+## Basic clusering methods
 
-Ce dépôt de code permettra de mettre en ligne les projets auxquels j'ai participé en lien avec le développement d'algorithmes de classification non supervisée.
+This repository gathers a few projects, meant to explore basic clustering techniques (unsupervised learning).
 
-Deux notebooks détaillent la mise en oeuvre d'algorithmes classiques du domaine : 
+Two jupyter notebooks detail the implementation of classic algorithms:
 
-* Algorithme K-means appliqué à la base de données des iris (codé en Python)
-* Algorithme EM dans le cadre d'un modèle de mélange gaussien bidimensionnel, appliqué sur des données synthétiques (codé en R)
+* K-means algorithm applied to the iris dataset (project in Python)
 
-Le troisième notebook, "Co-clustering for NLP" détaille la pertinence et les limites d'un algorithme de co-clustering appliqué à des données matricielles provenant du Natural Language Processing.
+* EM algorithm applied to synthetic data, distributed according to a bidimensional gaussian mixture (project in R)
+
+A third notebook, "Co-clustering for NLP", details the implementation and the limits related to a co-clustering algorithm applied to matrix data related to Natural Language Processing, following the paper 
